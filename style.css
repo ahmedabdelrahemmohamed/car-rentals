@@ -1,0 +1,497 @@
+html{
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.head1{
+    background: url(images/header-bg.jpg) no-repeat ;
+    background-size: cover;
+    color: white;
+    
+}
+.head1>div{
+    background-color: rgba(0 0 0 / 75%);
+}
+.head1 .nav, .service,.globally, .desir,.support, .blog,.foot{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+.head1 .nav{
+    padding-top: 7px;
+}
+.head1 .nav img{
+    float: left;
+    padding-top: 10px;
+}
+.head1 .lik{
+    float: right;
+}
+.head1 .lik ul{
+    list-style: none;
+    
+}
+.head1 .lik ul li{
+    display: inline-block;
+    
+}
+.head1 .lik li a{
+    text-decoration: none;
+    color: rgb(236, 235, 235);
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.head1 .lik li .active{
+    background-color: #f9b700;
+}
+.head1 .lik li a:hover{
+    background-color: #f9b700;
+}
+ .head2{
+    clear: both;
+    width:1140px;
+    margin: 0 auto;
+   
+    
+}
+.art1{
+    width: 55%;
+    float: left;
+    margin-top: 110px;
+}
+
+.art1 h5{
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+.art1 h1{
+    text-transform: uppercase;
+    font-size: 35px
+}
+.art1 p{
+    margin-bottom: 40px
+}
+.art1 a{
+    background-color: #f9b700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.art1 a:hover{
+    background-color: rgb(233, 233, 6);
+}
+.form1{
+   width: 40%;
+   background-color:rgb(4 12 36 / 67%);
+   float: right;
+   padding: 20px;
+   border: thin solid #727272;
+   margin: 22px 0 36px 0;
+}
+.form1 .group{
+    text-align: center;
+}
+  
+
+.form1 h1{
+    text-transform: capitalize;
+    font-size: 26px;
+}
+.form1 input,select{
+    color:#70767c;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    
+   
+}
+
+.form1 .group>select {
+    
+    padding: 8px 260px 8px 10px;
+}
+
+.form1 .group .car-type{
+    margin: 10px 0 10px 0;
+}
+.form1 .group .car-type select{
+    padding: 10px 30px 10px 4px;
+    margin: 6px 10px 5px 0;
+    width: 43%;
+}
+.form1 .group .car-type input{
+    width: 43%;
+    padding: 8px 0px
+}
+.form1 .info {
+    text-align: center;
+}
+.form1 .info input{
+    
+    padding:  10px 205px 10px 10px;
+    margin-bottom: 10px;
+}
+.form1 .info input[type="submit"]{
+    background-color:#f9b700 ;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+   
+    padding: 10px 111px;
+}
+.form1 .info input[type="submit"]:hover{
+    background-color:rgb(233, 233, 6); ;
+}
+.clearb{
+    clear: both;
+}
+.service{
+   clear: both;
+    padding-top: 35px
+}
+.service header{
+    text-align: center;
+}
+.service header h1{
+    font-size: 37px;
+    margin: 10px;
+}
+.service header p{
+    color: #757575;
+    margin-bottom: 40px;
+}
+.service .info{
+    width: 28%;
+    display: inline-block;
+    background: #ededf7;
+    padding: 10px;
+    border-radius: 6px;
+}
+.service .info{
+    padding: 30px 20px;
+}
+.service .info:not(:first-child){
+    margin-left: 20px;
+}
+.service .info h2{
+    display: inline-block;
+    margin: -5px 10px 0px 10px;
+}
+.service .info img{
+    float: left;
+}
+.service .info i, .service .info p{
+    clear: both;
+    color:#757575 ;
+}
+
+.service .sev2{
+    margin-top: 20px;
+}
+.globally{
+    margin-top: 50px;
+}
+.globally img{
+    width: 52%;
+    float: left;
+}
+.globally .art2{
+    width: 45%;
+    float: right;
+    padding-top: 50px;
+}
+.globally .art2 h1{
+    text-transform: capitalize;
+    font-size: 34px;
+    margin-bottom: 2px;
+}
+.globally .art2 h6{
+    margin-top: 12px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.globally .art2 a{
+    background-color: #f9b700;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.globally .art2 a:hover{
+    background-color: rgb(233, 233, 6);
+}
+.desir{
+    clear: both;
+    padding-top: 35px;
+}
+.desir header{
+    text-align: center;
+}
+.desir header h1{
+    font-size: 37px;
+    margin: 10px;
+}
+.desir header p{
+    color: #757575;
+    margin-bottom: 40px;
+
+}
+.desir .price {
+    float: left;
+    width: 46%;
+    margin-top: 70px;
+}
+.desir img{
+    float: right;
+    width: 50%;
+}
+.desir .price .pr .au{
+    float: left;
+    font-weight: bold;
+}
+.desir .price .pr .au2{
+    float: right;
+    
+}
+.desir .price .pr .au2 {
+    color:#f9b700 ;
+    font-weight: bold;
+}
+.desir .price .pr .au2 span{
+    font-size: 30px;
+}
+.desir .price .del{
+    clear: both;
+}
+.desir .price .del, .desir .price .tel li{
+    color: #757575;
+}
+.desir .price .tel li{
+    list-style: none;
+}
+.desir .price .tel{
+    padding: 0;
+}
+
+.desir .price a{
+    background-color: #1b1b1b;
+    color: #ededf7;
+    padding: 11px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.desir .price a:hover{
+   background-color: #f9b700;
+}
+.desir .sqd{
+    padding: 30px;
+    clear: both; 
+    text-align: center;
+}
+.desir .sqd div{
+    display: inline;
+    cursor: pointer;
+}
+.desir .sqd div:hover{
+    border-right: 14px solid #f9b700;
+}
+
+.desir .sqd .act{
+    width: 0;
+    height: 0;
+   margin-left:10px ;
+    
+    border-right: 14px solid #f9b700;
+}
+.desir .sqd .sq{
+    margin-left:10px ;
+    border-right: 14px solid #ccc
+}
+.sup{
+    clear: both;
+    background:url(images/callaction-bg.jpg);
+}
+
+.sup>div{
+    background-color: rgb(34 32 52 / 50%);
+    text-align: center;
+    padding-bottom: 50px;
+}
+.support header{
+    
+    
+}
+.support h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+    padding-top: 50px;
+}
+.support p{
+    font-size: 14px;
+    padding: 0 100px;
+    color: rgb(224, 224, 224);
+    padding-bottom: 25px;
+    
+}
+.support a{
+    padding: 10px 30px;
+    color: #f9b700;
+    border: 1px solid #f9b700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.support a:hover{
+    background-color: #f9b700; 
+    color: white;
+    border: none;
+    
+}
+.blog{
+    margin-top: 50px;
+   
+}
+
+.blog header{
+    text-align: center;
+}
+.blog header h1{
+    font-size: 37px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.blog header p{
+    color: #757575;
+    margin-bottom: 40px;
+    width: 60%;
+    text-align: center;
+    padding: 0 236px;
+
+}
+.blog .add{
+    display: flex;
+    justify-content: space-between;
+   }
+   .blog .gam{
+       flex-basis: 23%;
+   }
+.blog figure{
+    margin: 0;
+}
+
+.blog figcaption {
+    background: black;
+    color: rgb(219, 218, 218);
+    padding: 7px 10px 7px 16px;
+    margin-top: 13px;
+    width: 33%;
+}
+.blog .gam h1{
+    text-transform: capitalize;
+    font-size: 21px;
+    color: #2b2b2b;
+}
+.blog .gam p{
+    color: #757575;
+}
+.blog .gam .action{
+    display: flex;
+    justify-content: space-between;
+    color: #757575;
+
+}
+footer{
+    background-color: #04091D;
+    margin-top: 40px;
+}
+.foot-lik{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-lik ul{
+    list-style: none;
+    padding: 60px 0 35px 0;
+    
+}
+.foot-lik ul:not(.foot-lik ul li ul){
+    width: 17%;
+}
+.foot-lik ul:last-child{
+    flex-grow: 1;
+}
+.foot-lik ul li{
+    padding-top: 18px;
+}
+.foot-lik ul li:first-child{
+    margin-bottom: 23px;
+}
+.foot-lik ul li:first-child a:not(.foot-lik ul li ul li:first-child a){
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.foot-lik ul a{
+    text-decoration: none;
+    color:#525E6A;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+
+.foot-lik ul a:hover{
+      color: white;
+}
+.foot-lik ul li ul{
+    display: flex; 
+    padding: 0;
+    justify-content: space-between;
+   
+}
+.foot-lik ul li ul li{
+    width: 18%;
+}
+.foot-lik ul li ul li:last-child{
+    flex-grow: 1;
+}
+.foot-lik ul li ul i:hover{
+    font-size: 24px;
+} 
+.foot-lik ul li input{
+    padding: 10px ;
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 15px;
+}
+.foot-lik ul li button{
+    background-color: #f9b700;
+    border: 0;
+    padding:  10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    width: 14%;
+    
+}
+.foot-lik ul li button:hover{
+       background-color: rgb(233, 233, 6);
+}
+.cop{
+    text-align: center;
+    color:#525E6A;
+    padding-bottom: 30px;
+    
+}
